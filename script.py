@@ -10,9 +10,6 @@ template = env.get_template("final_template.html")
 with open('data.json', 'r', encoding='utf-8') as f:
     my_data = json.loads(f.read())
     print(my_data)
-    print(type(my_data))
-    for i in my_data['services']:
-        print(f"{i}: {my_data['services'][i]}")
         
 template_vars = {
     "name" : my_data['name'],
