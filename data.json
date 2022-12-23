@@ -1,11 +1,12 @@
 {
-    "name": "Om Kamath",
+    "name": "John Doe",
     "invno": "2223SAUMUM00012",
     "vac": "GSO-Lower Parel",
     "services": {
        "SMS Notifications":500,
        "Premium Lounge":2500,
-       "VISA Fee":5000
+       "VISA Fee":5000,
+       "Express Courier":750
     },
-    "total":8000
+    "total":8750
 }
